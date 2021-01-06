@@ -6,7 +6,9 @@
     a {
         text-decoration: none;
     }
-    
+    .nav-area{
+        padding-bottom: 120px;
+    }
     .nav {
         float: right;
         margin-right: 150px;
@@ -24,6 +26,12 @@
         color: #000000;
     }
     
+
+
+
+.hello-area{
+    padding-bottom: 150px;
+}
     .half-width {
         float: left;
         width: 40%;
@@ -44,18 +52,25 @@
         font-size: 15px;
     }
     
-    section {
-        padding-bottom: 150px;
-    }
+
+
+
     
     section img {
         width: 71%;
     }
     
-    .welcome {
-        margin-top: 100px;
-    }
-    
+
+
+
+
+   .hello-area{
+       padding-bottom: 150px;
+   }
+   .about-area{
+    padding-bottom: 150px;
+}  
+
     h1 {
         font-size: 70px;
         font-weight: 700;
@@ -81,12 +96,18 @@
         font-size: 14px;
     }
     
+
+
+
+
     .latest-work {
         background-color: #F8F9FC;
         height: 500px;
         width: 100%;
         overflow: hidden;
         margin-top: 100px;
+        padding-bottom: 150px;
+        
     }
     
     .h-2 {
