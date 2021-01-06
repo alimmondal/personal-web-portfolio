@@ -1,184 +1,154 @@
-body{
-	font-family: 'Poppins', sans-serif;
-	margin:0;
-}
-a{
-	text-decoration:none;
-	
-}
-.nav{
-	float:right;
-	
-}
-.nav ul li{
-	float:left;
-	list-style:none;
-	margin-top: 20px;
-}
-.nav ul li a{
-	text-decoration:none;
-	padding:10px 20px;
-	color:#000000;
-}
-
-.half-width{
-	float:left;
-	width:40%;
-	margin-left:5%;
-	padding-left:2%;
-}
-.hello{
-	width:69%;
-}
-.name-highlight{
-	color:#FF8367;
-}
-.link-button{
-	text-decoration: none;
-    background-image: linear-gradient(60deg, lightSalmon, tomato);
-    padding: 20px 55px;
-    border-radius: 5px;
-    color: white;
-    font-size: 15px;
-}
-
-
-
-
-section{
-	
-	padding-bottom:150px;
-	
-}
-section img{
-	width:71%;
-}
-.welcome{
-	margin-top:100px;
-}
-
-
-
-h1{
-	font-size:70px;
-	font-weight:700;
-	text-transform: uppercase;
-	margin-bottom:0px;
-	margin-top:0px;
-}
-h2{
-	font-size:40px;
-	font-weight:700;
-	text-transform: uppercase;
-}
-p{
-	color:dimgray;
-	padding-bottom:30px;
-	font-size: 14px;
-}
-
-
-
-
-
-
-
-.latest-work{
-	background-color:#F8F9FC;
-	height:500px;
-	width:100%;
-	overflow:hidden;
-	margin-top: 100px;
-}
-.h-2{
-	 text-align:center;
-}
-.triple-width{
-	float:left;
-	margin-left:5%;
-	padding-left:2%;
-	width:330px;
-	
-}
-
-.triple-width img{
-	width:333px;
-	height:250px;
-	
-}
-.single-box{
-	box-shadow:10px 10px 40px #cfcdd4;
-	border-radius: 15px;
-	padding:15px;
-	height:80%;
-}
-
-
-
-
-
-.banner img{
-	margin-top: 44px;
-    width: 59%;
-    margin-left: 20%;
-	margin-bottom:50px;
-}
-
-
-
-
-
-
-footer{
-	
-}
-footer h3{
-	text-align:center;
-	color:dimgray;
-	text-transform:uppercase;
-	margin-bottom:0px;
-}
-.email{
-	margin-left:37%;
-	font-size:40px;
-	color:#61637C;
-	font-weight:bold;
-}
-.social-icon{
-	margin-left:41%;
-}
-.social-icon ul li{
-	float:left;
-}
-.social-icon ul li{
-	list-style:none;
-	margin-left: 10px;
-	
-}
- .social-icon ul li img{
-	width:35px;
-	height:35px;
-	margin-top:0px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .nav {
+        float: right;
+    }
+    
+    .nav ul li {
+        float: left;
+        list-style: none;
+        margin-top: 20px;
+    }
+    
+    .nav ul li a {
+        text-decoration: none;
+        padding: 10px 20px;
+        color: #000000;
+    }
+    
+    .half-width {
+        float: left;
+        width: 40%;
+        margin-left: 5%;
+        padding-left: 2%;
+    }
+    
+    .hello {
+        width: 69%;
+    }
+    
+    .link-button {
+        text-decoration: none;
+        background-image: linear-gradient(60deg, lightSalmon, tomato);
+        padding: 20px 55px;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+    }
+    
+    section {
+        padding-bottom: 150px;
+    }
+    
+    section img {
+        width: 71%;
+    }
+    
+    .welcome {
+        margin-top: 100px;
+    }
+    
+    h1 {
+        font-size: 70px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        color: #363958;
+    }
+    
+    .name-highlight {
+        color: #FF8367;
+    }
+    
+    h2 {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    p {
+        color: dimgray;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
+    
+    .latest-work {
+        background-color: #F8F9FC;
+        height: 500px;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 100px;
+    }
+    
+    .h-2 {
+        text-align: center;
+    }
+    
+    .triple-width {
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+        width: 330px;
+    }
+    
+    .triple-width img {
+        width: 333px;
+        height: 250px;
+    }
+    
+    .single-box {
+        box-shadow: 10px 10px 40px #cfcdd4;
+        border-radius: 15px;
+        padding: 15px;
+        height: 80%;
+    }
+    
+    .banner img {
+        margin-top: 44px;
+        width: 59%;
+        margin-left: 20%;
+        margin-bottom: 50px;
+    }
+    
+    footer {}
+    
+    footer h3 {
+        text-align: center;
+        color: dimgray;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+    
+    .email {
+        margin-left: 37%;
+        font-size: 40px;
+        color: #61637C;
+        font-weight: bold;
+    }
+    
+    .social-icon {
+        margin-left: 41%;
+    }
+    
+    .social-icon ul li {
+        float: left;
+    }
+    
+    .social-icon ul li {
+        list-style: none;
+        margin-left: 10px;
+    }
+    
+    .social-icon ul li img {
+        width: 35px;
+        height: 35px;
+        margin-top: 0px;
+    }
